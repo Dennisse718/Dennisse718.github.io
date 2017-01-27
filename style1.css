@@ -24,6 +24,19 @@ body {
   height: 50px;
 }
 
+.freecodecamp {
+
+  border-radius: 50%;
+  width:  50px;
+  height: 50px;
+}
+
+.twitter {
+
+  border-radius: 50%;
+  width:  50px;
+  height: 50px;
+}
 
 @media screen and (max-width: 860px){
 
@@ -38,6 +51,5 @@ body {
   float: none;   
   width: 100%;
 }
-
 }
 
