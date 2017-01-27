@@ -15,56 +15,74 @@ body {
   height: 100%;
 }
 
-#ulnavigation {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #F2E0DC;
-}
+<<<<<<< HEAD
 
-li {
-  float: left;
-}
+#navigation {
+  =======
+  #ulnavigation {
+    >>>>>>> origin/master
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F2E0DC;
+    display: inline-block;
+  }
 
-li a {
-  display: block;
-  color: #544259;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+  li {
+    float: left;
+  }
 
-li a:hover {
-  background-color: #F2AB6D;
-}
+  li a {
+    display: block;
+    color: #544259;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
+  li a:hover {
+    background-color: #F2AB6D;
+  }
 
-aside {	
-  padding: 25px;
-  color: #FFE2C6;
-}
+  ul, li { 
+    font-family: 'Playfair Display', cursive;
+    text-align: center;
+    list-style-type: none;
+    display: inline-block; 
+  }
 
-article {
+  #hearts{
 
-  color: white;
-  padding: 20px;
-}
+    display: inline-block;
 
-section {
-	
-  padding: 20px;
-}
+  }
 
-h1 {
+  aside {	
+    padding: 25px;
+    color: #FFE2C6;
+  }
+
+  article {
+
+    color: white;
+    padding: 20px;
+  }
+
+  section {
+   
+    padding: 20px;
+  }
+
+  h1 {
    font-family: 'Cookie', cursive;
    font-weight: 700;
    font-size: 80px;
    color: #E8D9C0;
-}
+ }
 
 
-h3, h4 { 
+ h3, h4 { 
 
   text-align: center;
   font-size: 30px;
@@ -82,13 +100,6 @@ p {
   text-align: center;
   font-family:'Playfair Display', serif;
   font-weight: 400;
-}
-
-ul, li { 
-  font-family: 'Playfair Display', cursive;
-  text-align: center;
-  list-style-type: none;
-  display: inline-block; 
 }
 
 #two-column {
@@ -156,9 +167,6 @@ footer {
 }
 
 @media screen and (max-width: 860px){
-	nav a {
-		display: block;
-	}
 
   #wrapper {
    position: absolute;
@@ -168,19 +176,19 @@ footer {
    bottom: 0;
    overflow-x: hidden;
    overflow-y: scroll;
-  }
+ }
 
-	#left {
+ #left {
 
-    float: none;
-    width: 100%;
-  }
+  float: none;
+  width: 100%;
+}
 
-  #right {
+#right {
 
-    float: none;   
-    width: 100%;
-  }
-  
+  float: none;   
+  width: 100%;
+}
+
 }
 
