@@ -1,7 +1,7 @@
 body {
 
   background-color: rgb(154,161,162);
-  background-image: url('images/dennisse_banner.jpg') no repeat;
+  background-image: url('images/dennisse_banner.jpg') no-repeat;
   background-size: cover;
   color: #F2E0DC;
   text-align: center;
@@ -24,23 +24,8 @@ body {
   height: 50px;
 }
 
-footer {
-
-
-  padding: 20px;
-}
 
 @media screen and (max-width: 860px){
-
-  #wrapper {
-   position: absolute;
-   right: 0;
-   left: 0;
-   top: 0;
-   bottom: 0;
-   overflow-x: hidden;
-   overflow-y: scroll;
- }
 
  #left {
 
