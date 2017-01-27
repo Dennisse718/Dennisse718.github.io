@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Open+Sans);
+
+body {
+
+	background-color: rgb(154,161,162);
+	background-image: url('images/portfoliocover.png');
+	background-size: cover;
+	color: rgb(239,239,239);
+	text-align: center;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+header {
+
+	font-family: 'Playfair Display', serif;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+
+	font-family: 'Playfair Display', serif;
+    padding: 30px; 
+    text-align: center;
+ 	list-style-type: none;
+ 	display: inline; 
+
+}
+
+aside {
+
+	font-family: 'Playfair Display', serif;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+
+	font-family: 'Playfair Display', serif;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+
+	font-family: 'Playfair Display', serif;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1 {
+
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 60px;
+}
+
+
+h3, h4 { 
+	text-align: center;
+	font-size: 26px;
+	font-family: 'Open Sans', serif;
+	font-weight: 700;
+	color: rgb(239,239,239);
+
+ }
+
+ hr {
+
+ 	display: inline-block;
+ }
+
+ p {
+
+ 	text-align: center;
+ 	font-family:'Open Sans', serif;
+	font-weight: 400;
+ }
+
+ ul, li { 
+
+ 	text-align: center;
+ 	list-style-type: none;
+ 	display: inline-block; 
+  }
+
+ .img-circle { 
+
+ 	border-radius: 50%;
+ 	width: 110px;
+ 	height: 110px;
+  }
+ 
+ .underline { 
+
+ 	text-decoration: underline;
+ 	color: rgb(239,239,239);
+
+  }
+
+  #slogan { 
+
+  	font-style: italic;
+  	font-family:'Open Sans', serif;
+  	font-weight: 400;
+
+   }
+
+ .linkedin {
+
+ 	border-radius: 50%;
+ 	width: 50px;
+ 	height: 50px;
+ }
+
+ .github {
+
+ 	border-radius: 50%;
+ 	width:  50px;
+ 	height: 50px;
+ }
+
+footer {
+
+    border: 1px black solid;
+    padding: 20px;
+}
