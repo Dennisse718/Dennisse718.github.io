@@ -1,0 +1,94 @@
+<!doctype hmtl>
+
+<head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700italic,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jcider/latest/jcider.css"/>
+    <link rel="stylesheet" type="text/css" href="finalproject.css">
+
+</head>
+
+<body>
+    <header class="clearfix">
+        <nav class="sticky-nav-wrapper clearfix">
+            <div class= "main-logo"><!-- logo/title -->
+                <img id="db-logo" class="logo" src="db.jpg" alt="triangle logo">
+            </div>
+            <ul class="main-menu">
+                <li><a href="#about">about</a></li>
+                <li><a href="#photos">photos</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="title-block">
+        <h1>dragona blanca artistry</h1>
+        <p> "creating something with an original soul."</p>
+    </div>      
+
+    <div class="about-section clearfix" id="about">
+        <h2>  *About* </h2>
+
+        <div> 
+            <p>Jenni Ayala has been traveling from the west and east coasts with a few island hops in between. She has lived in New York, Miami, Berkeley, and San Fransisco. Starting as a seamstress at a bra company, she has continued her torrid love affair with lingerie throughout every incarnation of her careers, while doing professional makeup for lingerie shoots, styling, manicures and nail art, and more recently having her work reach the finals of "The Adorama Fashion Photographer of the Year" contest. She has taught yoga, cooked an all-vegan tailored menu for yoga retreats in Kaua'i, foraged, and is now living in Los Angeles and stepping back into her role as personal shopper and stylist.
+            </p>
+        </div>
+    </div>
+    <section id="photos">
+        <div class="photos-section clearfix" >
+            <h2> * Dragona Blanca Artisrty Gallery *</h2>
+            <!--image slider --> 
+            <section class="slider">
+                <div>
+                    <div><img src="candace.jpg"></div>
+                    <div><img src="dance.jpg"></div>
+                    <div><img src="evelyna 2.jpg"></div>
+                    <div><img src="fist.jpg"></div>
+                    <div><img src="face.jpg"></div>
+                </div><!--slider-->
+            </section>
+
+        </div><!--section-->
+    </section>
+
+    <div class="contact-section" id="contact"> 
+        <h2> * contact * </h2>
+        <form action="http://formspree.io/J-ayala@live.com" method="post">
+            <div class="contact-left required">
+                <label for="name"></label>
+                <input type="text" placeholder="your name" id="name" name="Name"/>
+                <input type="hidden" name="_subject" value="New Form Submission from dragona blanca artisrty"/>
+                <input type="hidden" name="_next" value="index.html"/>
+                <label for="mail"></label>
+                <input type="email" name="_replyto" placeholder="your email address" id="mail"/>
+
+            </div>
+
+            <div class="contact-right required">
+                <label for="msg"></label>
+                <textarea placeholder="Lets collaborate here" id="msg" name="Message"></textarea>
+            </div>
+            <center>
+                <input type="submit" name="Submit" class="submit">
+            </center>
+        </form>
+    </div>    
+
+    <footer class="clearfix">
+        <p>&copy; dragona blanca artistry, 2015</p>
+        <ul>
+            <li>Follow:</li>
+            <li><a href="http://instagram.com/drgonablanca" target="_blank"><img src="instagram-black.jpg" alt="instagram">
+            </a></li>
+            <li><a href="http://facebook.com/pages/Dragona-Blanca-Artistry/535439253278445?pnref=lhc" target="_blank">
+                <img src="facebook-black.jpg" alt="facebook"></a></li>
+            </ul>
+        </footer>
+
+        <!-- JavaScript and jQuery scripts -->
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.jcider/latest/jcider.min.js"></script>
+        <script type="text/javascript" src ="finalproject.js"></script>
+    </body>
+    </html>
