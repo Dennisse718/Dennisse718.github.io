@@ -17,12 +17,13 @@ body {
 }
 
 
-#ulnavigation {
+#navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #F2E0DC;
+  display: inline-block;
 }
 
 li {
@@ -41,6 +42,18 @@ li a:hover {
   background-color: #F2AB6D;
 }
 
+ul, li { 
+  font-family: 'Playfair Display', cursive;
+  text-align: center;
+  list-style-type: none;
+  display: inline-block; 
+}
+
+#hearts{
+
+  display: inline-block;
+
+}
 
 aside {	
   padding: 25px;
@@ -86,13 +99,6 @@ p {
   text-align: center;
   font-family:'Playfair Display', serif;
   font-weight: 400;
-}
-
-ul, li { 
-  font-family: 'Playfair Display', cursive;
-  text-align: center;
-  list-style-type: none;
-  display: inline-block; 
 }
 
 #two-column {
@@ -169,9 +175,6 @@ footer {
 }
 
 @media screen and (max-width: 860px){
-	nav a {
-		display: block;
-	}
 
   #wrapper {
    position: absolute;
