@@ -1,7 +1,5 @@
 body {
-
-  background-color: rgb(154,161,162);
-  background-image: url('images/designlovefest-wallpaper-city.jpg');
+  background-image: url('images/dennisse_banner.jpg')no-repeat center;
   background-size: cover;
   color: #F2E0DC;
   text-align: center;
@@ -9,6 +7,7 @@ body {
   font-weight: 400;
 }
 
+<<<<<<< HEAD
 #wrapper {
   background-image:url('images/dennisse_banner.jpg')no-repeat top;
   width: 100%;
@@ -146,6 +145,8 @@ p {
 
 }
 
+=======
+>>>>>>> origin/master
 .linkedin {
 
   border-radius: 50%;
@@ -160,14 +161,16 @@ p {
   height: 50px;
 }
 
-footer {
+.twitter {
 
-
-  padding: 20px;
+  border-radius: 50%;
+  width:  50px;
+  height: 50px;
 }
 
 @media screen and (max-width: 860px){
 
+<<<<<<< HEAD
   #wrapper {
    position: absolute;
    right: 0;
@@ -186,6 +189,16 @@ footer {
 
 #right {
 
+=======
+ #left {
+
+  float: none;
+  width: 100%;
+}
+
+#right {
+
+>>>>>>> origin/master
   float: none;   
   width: 100%;
 }
