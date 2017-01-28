@@ -13,80 +13,81 @@ body {
   background-image:url('images/dennisse_banner.jpg')no-repeat top;
   width: 100%;
   height: 100%;
-
 }
 
+<<<<<<< HEAD
 
 #navigation {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #F2E0DC;
-  display: inline-block;
-}
+  =======
+  #ulnavigation {
+    >>>>>>> origin/master
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F2E0DC;
+    display: inline-block;
+  }
 
-li {
-  float: left;
-}
+  li {
+    float: left;
+  }
 
-li a {
-  display: block;
-  color: #544259;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+  li a {
+    display: block;
+    color: #544259;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
-li a:hover {
-  background-color: #F2AB6D;
-}
+  li a:hover {
+    background-color: #F2AB6D;
+  }
 
-ul, li { 
-  font-family: 'Playfair Display', cursive;
+  ul, li { 
+    font-family: 'Playfair Display', cursive;
+    text-align: center;
+    list-style-type: none;
+    display: inline-block; 
+  }
+
+  #hearts{
+
+    display: inline-block;
+
+  }
+
+  aside {	
+    padding: 25px;
+    color: #FFE2C6;
+  }
+
+  article {
+
+    color: white;
+    padding: 20px;
+  }
+
+  section {
+   
+    padding: 20px;
+  }
+
+  h1 {
+   font-family: 'Cookie', cursive;
+   font-weight: 700;
+   font-size: 80px;
+   color: #E8D9C0;
+ }
+
+
+ h3, h4 { 
+
   text-align: center;
-  list-style-type: none;
-  display: inline-block; 
-}
-
-#hearts{
-
-  display: inline-block;
-
-}
-
-aside {	
-  padding: 25px;
-  color: #FFE2C6;
-}
-
-article {
-
-	color: white;
-  padding: 20px;
-}
-
-section {
-
-	
-  padding: 20px;
-}
-
-h1 {
-
-	font-family: 'Cookie', cursive;
-	font-weight: 700;
-	font-size: 80px;
-  color: #E8D9C0;
-}
-
-
-h3, h4 { 
-
-	text-align: center;
-	font-size: 30px;
-	font-family: 'Cookie', cursive;
-	font-weight: 700;
+  font-size: 30px;
+  font-family: 'Cookie', cursive;
+  font-weight: 700;
 }
 
 hr {
@@ -108,15 +109,12 @@ p {
 }
 
 #left {
-
-
   padding: 10px;
   float: left;
   width: 30%;
 }
 
 #right {
-
 
   padding: 20px;
   float: right;   
@@ -139,12 +137,6 @@ p {
   height: 110px;
 }
 
-.underline { 
-
-  text-decoration: underline;
-  color: rgb(239,239,239);
-
-}
 
 #slogan { 
 
@@ -184,19 +176,19 @@ footer {
    bottom: 0;
    overflow-x: hidden;
    overflow-y: scroll;
-  }
+ }
 
-	#left {
+ #left {
 
-    float: none;
-    width: 100%;
-  }
+  float: none;
+  width: 100%;
+}
 
-  #right {
+#right {
 
-    float: none;   
-    width: 100%;
-  }
-  
+  float: none;   
+  width: 100%;
+}
+
 }
 
