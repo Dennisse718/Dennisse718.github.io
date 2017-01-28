@@ -7,11 +7,7 @@ body {
   font-weight: 400;
 }
 
-
-#navigation {
-  =======
   #ulnavigation {
-    >>>>>>> origin/master
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -43,28 +39,6 @@ body {
     display: inline-block; 
   }
 
-  #hearts{
-
-    display: inline-block;
-
-  }
-
-  aside {	
-    padding: 25px;
-    color: #FFE2C6;
-  }
-
-  article {
-
-    color: white;
-    padding: 20px;
-  }
-
-  section {
-   
-    padding: 20px;
-  }
-
   h1 {
    font-family: 'Cookie', cursive;
    font-weight: 700;
@@ -73,72 +47,6 @@ body {
  }
 
 
- h3, h4 { 
-
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Cookie', cursive;
-  font-weight: 700;
-}
-
-hr {
-
-  display: inline-block;
-}
-
-p {
-
-  text-align: center;
-  font-family:'Playfair Display', serif;
-  font-weight: 400;
-}
-
-#two-column {
-
- background-color: #FFB7CF;
- padding: 20px;
-}
-
-#left {
-  padding: 10px;
-  float: left;
-  width: 30%;
-}
-
-#right {
-
-  padding: 20px;
-  float: right;   
-  width: 62%;
-}
-
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-}
-
-.img-circle { 
-
-  border-radius: 50%;
-  width: 110px;
-  height: 110px;
-}
-
-
-#slogan { 
-
- font-size: 24px;
- font-family:'Cookie', cursive;
- font-weight: 400;
-
-}
-
-=======
->>>>>>> origin/master
 .linkedin {
 
   border-radius: 50%;
