@@ -70,6 +70,14 @@ h5 {
   letter-spacing: 0.5px;
 }
 
+h6 {
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather';
+  font-size: 14px;
+}
+
 .linkedin {
 
   border-radius: 50%;
